@@ -1,0 +1,19 @@
+.favoriteIcon {
+  margin-right: 2px;
+  color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.favoriteIconActive {
+  color: rgb(240, 185, 11);
+}
+
+.pairCell {
+  display: flex;
+  align-items: center;
+  color: rgb(118, 128, 143);
+}
+
+.primary {
+  color: rgb(30, 32, 38);
+}

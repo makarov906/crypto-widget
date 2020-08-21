@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+}
+
+.cell {
+  padding: 5px 0;
+}
+
+.header .cell {
+  font-weight: 700;
+}
+
+.body {
+  height: 300px;
+  overflow-y: scroll;
+}

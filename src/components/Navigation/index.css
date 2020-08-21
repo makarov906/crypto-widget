@@ -1,0 +1,44 @@
+.navigation {
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.item {
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 2px;
+  line-height: 16px;
+}
+
+.itemActive {
+  background-color: rgb(230, 232, 234);
+  color: rgb(71, 77, 87);
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdownContainer:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  background: #fff;
+  display: none;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.option {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.option:hover {
+  background: rgb(230, 232, 234);
+}
