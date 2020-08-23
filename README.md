@@ -1,1 +1,1 @@
-# Cryptocurrency widget
+# npm start
