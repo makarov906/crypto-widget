@@ -12,5 +12,11 @@ export const FavoriteIcon = ({ active, onClick }: Props) => {
     ? `${styles.favoriteIcon} ${styles.favoriteIconActive}`
     : styles.favoriteIcon;
 
-  return <StarIcon className={className} onClick={onClick} />;
+  return (
+    <StarIcon
+      className={className}
+      onClick={onClick}
+      data-testid="favoriteIcon"
+    />
+  );
 };

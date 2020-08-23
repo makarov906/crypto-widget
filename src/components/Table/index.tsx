@@ -36,7 +36,7 @@ export function Table<T>({ data, columns, getKey }: Props<T>) {
       </div>
       <div className={styles.body}>
         {data.map((item) => (
-          <div className={styles.row} key={getKey(item)}>
+          <div className={styles.row} key={getKey(item)} data-testid="tableRow">
             {columns.map((column) => (
               <div
                 style={{

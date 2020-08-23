@@ -15,24 +15,28 @@ export const Navigation = () => {
       <NavigationItem
         active={state.tab === Tab.Favorite}
         onClick={() => actions.setTab(Tab.Favorite)}
+        testId="favoriteTab"
       >
         <StarIcon />
       </NavigationItem>
       <NavigationItem
         active={state.tab === Tab.Margin}
         onClick={() => actions.setTab(Tab.Margin)}
+        testId="marginTab"
       >
         Margin
       </NavigationItem>
       <NavigationItem
         active={state.tab === Tab.Bnb}
         onClick={() => actions.setTab(Tab.Bnb)}
+        testId="bnbTab"
       >
         {Coin.Bnb}
       </NavigationItem>
       <NavigationItem
         active={state.tab === Tab.Btc}
         onClick={() => actions.setTab(Tab.Btc)}
+        testId="btcTab"
       >
         {Coin.Btc}
       </NavigationItem>
