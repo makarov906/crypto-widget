@@ -10,12 +10,6 @@ export const productUtils = {
       [isFavorite]: !product[isFavorite],
     };
   },
-  setFavorite(product: Product, value: boolean): Product {
-    return {
-      ...product,
-      [isFavorite]: value,
-    };
-  },
   calculateChange(product: Product): number {
     return (product.openPrice - product.latestPrice) / product.openPrice;
   },

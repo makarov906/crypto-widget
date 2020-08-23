@@ -1,4 +1,4 @@
-import {Product} from '../models/product/types';
+import {Product} from 'src/models/product/types';
 
 // https://www.binance.com/
 // due to CORS

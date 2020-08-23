@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useMemo, useReducer } from "react";
 import { Column } from "src/models/columns/types";
 import { Tab } from "src/models/tabs/types";
-import { DataState } from "../models/dataState/types";
+import { DataState } from "src/models/dataState/types";
 import {
   loadProducts,
   setAlt,

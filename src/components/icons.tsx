@@ -15,9 +15,3 @@ export const StarIcon = (props: React.SVGProps<any>) => (
     />
   </svg>
 );
-
-export const ArrowIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path d="M16 9v1.2L12 15l-4-4.8V9h8z" />
-  </svg>
-);
